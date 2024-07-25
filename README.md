@@ -29,3 +29,58 @@ https://www.bitmex.com/api/explorer/#!/Announcement/Announcement_get
 
 
 If you are unfamiliar with any part of the request, is fine, you can skip it **(but make a comment )**
+
+
+
+
+
+
+
+
+
+
+
+**Documentation**
+here below you will be able to find out every single step to execute the application and including tecnologies used.
+technologies used:
+**FrontEnd**
+- React
+- TypeScript
+- SCSS
+- Redux
+- Hooks
+- React-Router-Dom
+- DotEnv
+- SweetAlert
+- Axios
+
+**Backend**
+- Node.js
+- Express.js
+- nodemon
+- Axios
+- Postgress
+- Docker/DockerCompose
+
+1- step : clon the application in your computer
+  in this branch you will find out two folders, bitmex is the front-end app and bitmex_Database is the back-end.
+2- step : once you clon the project, let's setup the backend
+
+**BackEnd SetUp**
+3- first you must have Docker Desktop/ Docker and DockerCompose, NPM, Node.js install in your machine once you got 
+  - open DockerDesktop and turn it on
+  - Opne a line command or the line command of your machine
+  - download the image of postgres by executing : **docker pull postgres** (Make sure you download the correct image)
+  - Then go to the folder called **Bitmex_Database**, in you IDE open the folder, open the **Terminal** and execute this command : npm install
+      This step will download and install all the dependency used in the backend.
+      make sure this soluction use nodemon, and already configured to run with nodemon, whether you do not want use nodemon, just change the start script
+      "start": "nodemon src/index.js"  with nodemon
+      "start": "node src/index.js"   without nodemon
+  - configure the .env file, this project use .env for variables enviroment, in the folder there is a file called .env.example, which contain a real examplo
+    of all the variables you must add, it is no good put the same variable which the project us to work, but i put the same to make ease for you.
+    **just copy all the varables from the file .env.example, and past them on the .env file**
+    **Rememebr you have to create the .env file, which is not in Backend Folder**
+  - go to the **Dockerfile** to see the configuratioin for node container, and **docker-compose.yml** for the database container, here you will find database name, user name and            password for data base.
+  - if you completed all the previous steps you are ready to run the Backend app useing docker.
+  - go to the terminal and run this commands : **1:docker-compose build, docker-compose up and your backend will be up.**
+    
