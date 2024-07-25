@@ -114,6 +114,15 @@ technologies used:
 
 
 
+**APP**
+**First Screen** : it will render a starting page that just will stay araound 5 seg.
+**Secound one** : will display all the data coming fron the Bitmex API.
+  Where you can filter, and send to the database in postgres.
+  -**Filter :** In the input at the top you can filter by inputing/typing letters about the list diplayed.
+  -**Send to database :** you can do this, by click in the button which looks like a book, this button open a modal which allow you to send to the database the item selected.
+  -**Navigation :** On the left, you will see two navigation button, the first one is named, **Go To The WebSocket**, this button open a modal
+  which allow you see data from Bitmex in real time using websocket, the secound one named **Database Store**, open a modal to display all data inserted in the database.
+
 
 
 
