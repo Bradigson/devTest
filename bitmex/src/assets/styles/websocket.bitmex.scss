@@ -1,0 +1,53 @@
+.websocket
+{
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height:100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    display: grid;
+    place-items: center;
+
+    .websocket-content
+    {
+        background: #eee;
+        width: 60%;
+        border-radius: .5rem;
+
+
+        .websocket-content-button
+        {
+            display: flex;
+            justify-content: end;
+            padding-right: 1rem;
+
+            .bx-x{
+                font-size: 3rem;
+                
+            }
+        }
+
+        .websocket-contentlist
+        {
+            height: 35rem;
+            max-height: 35rem;
+            overflow-y: auto;
+            padding: 1.4rem;
+
+            .websocket-content_list
+            {
+                background: #212F3D;
+                text-decoration: none;
+                margin-top: 2rem;
+                list-style: none;
+                padding: .5rem;
+                border-radius: .5rem;
+                color: #fff;
+                user-select: none;
+            }
+        }
+
+    }
+    
+}

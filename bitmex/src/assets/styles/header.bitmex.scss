@@ -1,0 +1,29 @@
+.header{
+    background: #fff;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    
+    .header-logo_container
+    {
+        display: flex;
+        width:20rem;
+        justify-content: center;
+        align-items: center;
+        span{
+            font-size: 1rem;
+            margin-left: 1rem;
+            font-weight: bold;
+
+        }
+    }
+    input{
+        background: #eee;
+        border: none;
+        padding-left: 1rem;
+        width:35rem;
+        line-height: 2;
+        border-radius: .5rem;
+    
+    }
+}

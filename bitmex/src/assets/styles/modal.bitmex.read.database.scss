@@ -1,0 +1,53 @@
+.moda-bitmex-database
+{
+    background: rgba(0,0,0,.4);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+
+
+    .moda-bitmex-database-list-container
+    {
+        background: #eee;
+        width:80%;
+        height: 75%;
+        border-radius: 2rem;
+        padding: 2rem;
+
+        .moda-bitmex-database-list-container-closeButton_container{
+            display: flex;
+            justify-content: end;
+            padding-right: 2rem;
+
+            .bx-x
+            {
+                font-size: 2rem;
+            }
+        }
+        .moda-bitmex-database-listcontainer
+        {
+            
+            height:30rem;
+            overflow-y: auto;
+
+            .moda-bitmex-database-list-container_list
+            {
+                background: #273746;
+                color:#fff;
+                margin-top: 2rem;
+                border-radius: .5rem;
+                padding: 1rem;
+
+                .moda-bitmex-database-list-container_list-title
+                {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
