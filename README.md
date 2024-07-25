@@ -84,6 +84,8 @@ technologies used:
   - if you completed all the previous steps you are ready to run the Backend app useing docker.
   - go to the terminal and run these commands : **1:docker-compose build, docker-compose up and your backend will be up.**
 
+    **Create DataBase**
+
 
 **FornEnd SetUp**
 4- got to foler called bitmex and execute this command : npm install, this go to install all the dependency that the fornend app require to run.
