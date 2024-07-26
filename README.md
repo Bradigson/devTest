@@ -127,8 +127,8 @@ technologies used:
 
 
 
-**OJO**
+**Observation**
 
 i pushed a folder called images in a branch called images, where you will be able to see screenshots about app
-functionality and folder,files configuration for a better understanding.
+functionality and folder,files configuration for a better understanding, and a diagram of services integrations.
     
